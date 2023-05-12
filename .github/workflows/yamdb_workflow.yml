@@ -42,4 +42,4 @@ jobs:
          uses: docker/build-push-action@v2
          with:
            push: true
-           tags: sarymov/my_images:latest
+           tags: arhipvp/my_images:latest
