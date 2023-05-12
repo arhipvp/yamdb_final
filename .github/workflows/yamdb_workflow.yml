@@ -42,4 +42,4 @@ jobs:
          uses: docker/build-push-action@v2
          with:
            push: true
-           tags: arhipvp/my_images:latest
+           tags: arhipvp/api_yamdb:latest
