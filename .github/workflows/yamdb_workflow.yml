@@ -43,6 +43,6 @@ jobs:
          with:
            push: true
            #file: Docerfile.prod
-           tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
+           tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:tagname
            #username: ${{ secrets.DOCKER_USERNAME }}
            #password: ${{ secrets.DOCKER_PASSWORD }}
