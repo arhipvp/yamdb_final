@@ -41,8 +41,9 @@ jobs:
        - name: Push to Docker Hub
          uses: docker/build-push-action@v4
          with:
+           file: api_yamdb/Dockerfile
            push: true
-           file: Dockerfile
+           #file: Dockerfile
            tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:tagname
            #username: ${{ secrets.DOCKER_USERNAME }}
            #password: ${{ secrets.DOCKER_PASSWORD }}
