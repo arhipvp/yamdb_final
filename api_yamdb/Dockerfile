@@ -1,4 +1,4 @@
-LABEL author='iam' version=0.01 broken_keyboards=1
+
 
 FROM python:3.7-slim
 
