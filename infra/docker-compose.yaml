@@ -42,4 +42,4 @@ services:
 volumes:
   static_value:
   media_value:
-  database:
+  db_value:
