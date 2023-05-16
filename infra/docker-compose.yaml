@@ -11,7 +11,7 @@ services:
     image: arhipvp/api_yamdb:latest
     restart: always
     volumes:
-      - static_value:/static/
+      - static_value:/app/static/
 
     depends_on:
       - db
