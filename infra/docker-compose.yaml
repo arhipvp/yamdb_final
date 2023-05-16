@@ -10,14 +10,14 @@ services:
   web:
     image: arhipvp/api_yamdb:latest
     restart: always
-    volumes: 
+    volumes:
       - type: volume
         source: static_value
         target: /static/
       - type: volume
         source: media_value
         target: /media/
-      
+
     depends_on:
       - db
     env_file:
